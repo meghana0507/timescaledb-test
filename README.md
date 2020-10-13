@@ -4,11 +4,14 @@
 1. Python virtual environment setup:
   a. Install virtualenv if not already installed:
     > python -m pip install --user virtualenv
+    
   b. Navigate to project directory:
     > git clone https://github.com/meghana0507/timescaledb-test.git/
     > cd timescaledb-test
+    
   c. Create virtual environment:
     > python -m virtualenv env
+    
   d. Activate virtual environment:
     > source env/bin/activate
     
@@ -18,13 +21,12 @@
   > pip install -r requirements.txt
   
 3. Create a .env file in the project folder to store database connection details like below:
-  db_user=postgres
-  db_host=localhost
-  db_name=homework
+   `db_user=postgres`
+   `db_host=localhost`
+   `db_name=homework`
   
 ## How to run:
-The tool takes two arguments from the command line, like below:
-  python query-tool.py -q <query-input-file> -n <number-of-workers>
+The tool takes two arguments (query parameters csv file, number of concurrent workers) from the command line.
   
 In this case for example, try running:
   > python query-tool.py -q query_params.csv -n 3
