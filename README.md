@@ -3,20 +3,20 @@
 ## Pre-requisites:
 1. Python virtual environment setup:
 
-  a. Install virtualenv if not already installed:
-    > python -m pip install --user virtualenv
+    a. Install virtualenv if not already installed:
+      > python -m pip install --user virtualenv
     
-  b. Navigate to project directory:
-    > git clone https://github.com/meghana0507/timescaledb-test.git/
-    > cd timescaledb-test
+    b. Navigate to project directory:
+      > git clone https://github.com/meghana0507/timescaledb-test.git/
+      > cd timescaledb-test
     
-  c. Create virtual environment:
-    > python -m virtualenv env
+    c. Create virtual environment:
+      > python -m virtualenv env
     
-  d. Activate virtual environment:
-    > source env/bin/activate
+    d. Activate virtual environment:
+      > source env/bin/activate
     
-  Make sure `(env)` is displayed to the left side of the shell to ensure project runs in virtual environment.
+    Make sure `(env)` is displayed to the left side of the shell to ensure project runs in virtual environment.
   
 2. Install pip packages from requirements.txt file:
   > pip install -r requirements.txt
