@@ -22,7 +22,7 @@
 2. Install pip packages from requirements.txt file:
     > pip install -r requirements.txt
   
-3. Create a .env file in the project folder to store database connection details like below:
+3. Create a .env file in the project folder with following content (to store database connection details):
    ```
    db_user=postgres
    db_host=localhost
