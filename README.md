@@ -23,9 +23,11 @@
     > pip install -r requirements.txt
   
 3. Create a .env file in the project folder to store database connection details like below:
-   `db_user=postgres`
-   `db_host=localhost`
-   `db_name=homework`
+   ```
+   db_user=postgres
+   db_host=localhost
+   db_name=homework
+   ```
   
 ## How to run:
 The tool takes two arguments (query parameters csv file, number of concurrent workers) from the command line.
