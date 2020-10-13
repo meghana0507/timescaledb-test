@@ -1,0 +1,4 @@
+psycopg2
+statistics
+mmh3
+python-dotenv
