@@ -8,6 +8,7 @@
     
     b. Navigate to project directory:
       > git clone https://github.com/meghana0507/timescaledb-test.git/
+      
       > cd timescaledb-test
     
     c. Create virtual environment:
@@ -19,7 +20,7 @@
     Make sure `(env)` is displayed to the left side of the shell to ensure project runs in virtual environment.
   
 2. Install pip packages from requirements.txt file:
-  > pip install -r requirements.txt
+    > pip install -r requirements.txt
   
 3. Create a .env file in the project folder to store database connection details like below:
    `db_user=postgres`
